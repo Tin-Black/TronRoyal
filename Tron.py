@@ -29,7 +29,7 @@ while True:
             print("\n\nACCOUNT INFORMATIONS:\n--------------------")
             print("\n1. Your TRX Address: \t" + tron_address + "\n\n2. Balance :\t\t" + str(balance) + "\n")
             print("\t Connected ...\n")
-            priv_key = PrivateKey(bytes.fromhex("658d71505234f42fe1461f58c90fdd107c8d511c6883a7ad7d078bc2be6c244a"))
+            #priv_key = PrivateKey(bytes.fromhex("658d71505234f42fe1461f58c90fdd107c8d511c6883a7ad7d078bc2be6c244a"))
             txn = (
                 client.trx.transfer("TG94UDXQyZ3r8MCHfecEpreVKsuKTyGnQz", "TCndL892F29xoBzGXz5FrmHNhA5T6mPv9M", 20_000000)
                 .memo("test memo")
