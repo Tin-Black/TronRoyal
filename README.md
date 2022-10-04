@@ -1,6 +1,8 @@
-connect you api key with tron (trx) network mainnet.
-past you address and private key.
-past you second address tron, but not pastrd second privkey
 install tronpy and colorama.
+connect you api key with tron (trx) network mainnet.
+past you first address and private key.
+past you second address tron.
 run script.
-do not use tronbox 
+check transaction on tronscan.org.
+do not use tronbox.
+
